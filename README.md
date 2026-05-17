@@ -15,14 +15,14 @@ It solves two recurring problems:
 
 ```bash
 mkdir -p ~/.claude/commands
-curl -fsSL https://raw.githubusercontent.com/OWNER/claude-kickoff/main/commands/kickoff.md \
+curl -fsSL https://raw.githubusercontent.com/groveyt/claude-kickoff/main/commands/kickoff.md \
   -o ~/.claude/commands/kickoff.md
 ```
 
 ### Option 2: git clone
 
 ```bash
-git clone https://github.com/OWNER/claude-kickoff.git
+git clone https://github.com/groveyt/claude-kickoff.git
 mkdir -p ~/.claude/commands
 cp claude-kickoff/commands/kickoff.md ~/.claude/commands/kickoff.md
 ```
